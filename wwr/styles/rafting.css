@@ -2,7 +2,7 @@
     --primary-color: #2e1717;
     --secondary-color: #0c40a0;
     --accent1-color: #12521b;
-    --accent2-color: #eeec67;
+    --accent2-color: #fffea7;
     --heading-font: Verdana, Arial sans-serif;
     --body-font: 'Trebuchet MS', Tahoma, sans-serif;
 }
@@ -31,7 +31,7 @@ h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     background-color: var(--secondary-color);
-    color: #fff;
+    color: var(--accent2-color);
     text-align: center;
     padding: 10px;
 }
@@ -73,7 +73,8 @@ nav, p, section, article {
     padding: 3px;
     text-align: center;
     top: 400px;
-    background-color: rgba(153, 152, 75, .7);
+    background-color: rgba(255, 254, 167, .7)
+;
 }
 
 .hero article img {
