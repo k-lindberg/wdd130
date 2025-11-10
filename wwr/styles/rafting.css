@@ -21,6 +21,7 @@ body {
 header, main, footer {
     width: 840px;
     margin: 0 auto;
+    color: var(--primary-color);
 }
 
 footer img {
