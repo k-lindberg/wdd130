@@ -10,15 +10,30 @@
     box-sizing: border-box;
 }
 
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+header {
+    display: block;
+}
+
 nav {
     background-color: var(--background-color);
     padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 nav a {
     color: var(--text-color);
-    display: block;
     padding: 20px;
+}
+
+body {
+    font-size: 16px;
 }
 
 h1 {
@@ -32,6 +47,8 @@ p {
 
 main {
     max-width: 840px;
+    margin: 1rem;
+    grid-column: 2;
 }
 
 main img {
@@ -53,6 +70,8 @@ aside {
     color: var(--text-color);
     position: relative;
     text-align: center;
+    grid-column: 1;
+    grid-row: 1/2;
 }
 
 aside img {
@@ -82,4 +101,9 @@ footer {
 
 .indent {
     padding-left: 2rem;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
 }
