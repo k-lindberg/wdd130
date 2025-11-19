@@ -85,23 +85,6 @@ nav, p, section, article {
     padding: 8px;
 }
 
-figure {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: auto auto;
-    justify-items: center;
-}
-
-figure img {
-    margin-top: 10px;
-    grid-row: 1/2;
-}
-
-figcaption {
-    justify-self: center;
-    align-self: center;
-}
-
 .history {
     margin: 5px;
     display: grid;
@@ -125,6 +108,24 @@ figcaption {
 .adventure {
     border: solid black;
     margin: 5px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto auto;
+    justify-items: center;
+}
+
+.adventure h2 {
+    grid-column: 1/-1;
+    grid-row: 1;
+}
+
+.adventure img {
+    margin-top: 10px;
+}
+
+.adventure figcaption {
+    justify-self: center;
+    align-self: center;
 }
 
 .socialmedia {
@@ -151,7 +152,6 @@ figcaption {
     display: block;
     width: 100%;
     height: auto;
-
 }
 
 .hero h1 {
@@ -171,8 +171,7 @@ figcaption {
     padding: 3px;
     text-align: center;
     top: 400px;
-    background-color: rgba(255, 254, 167, .7)
-;
+    background-color: rgba(255, 254, 167, .7);
 }
 
 .hero article img {
