@@ -246,7 +246,7 @@ form {
     display: grid;
     grid-template-columns: 1fr 3fr;
     align-items: start;
-    gap: 10px
+    gap: 10px;
 }
 
 .radio-group h3 {
@@ -336,7 +336,7 @@ button {
     width: 350px;
     justify-self: center;
     margin: 3px;
-    padding: 3px
+    padding: 3px;
 }
 
 .home-grid form label {
@@ -356,7 +356,8 @@ button {
     font-size: 1.8rem;
     padding-top: 20px;
     text-align: center;
-    border-right: var(--border)
+    border-right: var(--border);
+    padding-top: 50px;
 }
 
 .trips {
